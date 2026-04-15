@@ -26,6 +26,12 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.1.1] - 2026-04-15
+
+### Fixed
+
+- (GH-19) Fix deployed binary name for dev package
+
 ## [v0.1.0] - 2026-04-15
 
 ### Added
@@ -38,5 +44,6 @@ Markdown-formatted table on stdout.
 
 See the project README for additional details.
 
-[Unreleased]: https://github.com/atc0005/yum2md/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/atc0005/yum2md/compare/v0.1.1...HEAD
+[v0.1.1]: https://github.com/atc0005/yum2md/releases/tag/v0.1.1
 [v0.1.0]: https://github.com/atc0005/yum2md/releases/tag/v0.1.0
