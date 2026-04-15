@@ -28,7 +28,7 @@ license: "MIT"
 # changelog: "changelog.yaml"
 contents:
   - src: ../../release_assets/yum2md/yum2md-linux-amd64-dev
-    dst: /usr/bin/yum2md
+    dst: /usr/bin/yum2md_dev
     file_info:
       mode: 0755
 
