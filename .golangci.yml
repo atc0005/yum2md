@@ -1,0 +1,36 @@
+# Copyright 2026 Adam Chalkley
+#
+# https://github.com/atc0005/yum2md
+#
+# Licensed under the MIT License. See LICENSE file in the project root for
+# full license information.
+
+version: "2"
+linters:
+  enable:
+    - dogsled
+    - dupl
+    - goconst
+    - gocritic
+    - gosec
+    - misspell
+    - prealloc
+    - revive
+    - staticcheck
+    - unconvert
+  exclusions:
+    generated: lax
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
+formatters:
+  enable:
+    - gofmt
+    - goimports
+  exclusions:
+    generated: lax
+    paths:
+      - third_party$
+      - builtin$
+      - examples$
