@@ -65,10 +65,10 @@ func main() {
 
 		// Earlier sanity check rejects lines without the required 3 fields.
 		pkg := fields[0]
-		repo := fields[1]
+		release := fields[1]
 		// repo := fields[len(fields)-1]
 		// release := strings.Join(fields[1:len(fields)-1], " ") // TODO: Is this really needed?
-		release := fields[2]
+		repo := fields[2]
 
 		rows = append(rows, checkupdate.Row{
 			Package: pkg,
