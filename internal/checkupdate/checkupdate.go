@@ -69,10 +69,17 @@ func ContainsPackageNameSeparator(s string) bool {
 // PrintMarkdownTable generates and emits a Markdown-formatted table from
 // parsed check-output rows containing relevant package/release/repo details.
 func PrintMarkdownTable(rows []Row) {
-	if len(rows) == 0 {
+	switch {
+	case len(rows) == 0:
 		fmt.Println("No updates to apply.")
 
 		return
+
+	case len(rows) == 1:
+		fmt.Printf("%d pending update to apply.\n", len(rows))
+
+	default:
+		fmt.Printf("%d pending updates to apply.\n", len(rows))
 	}
 
 	headers := []string{"Package", "Release", "Repo"}

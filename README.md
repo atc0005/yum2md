@@ -153,6 +153,7 @@ system. The OS release is listed in the hostname.
 
 ```console
 [root@atc0005-wsl-rhel8-test yum2md-prototype]# yum check-update | ./yum2md
+1 pending update to apply.
 | Package           | Release           | Repo                          |
 | ----------------- | ----------------- | ----------------------------- |
 | libnghttp2.x86_64 | 1.33.0-6.el8_10.2 | rhel-8-for-x86_64-baseos-rpms |
@@ -160,6 +161,7 @@ system. The OS release is listed in the hostname.
 
 ```console
 [root@atc0005-wsl-rhel9-test yum2md-prototype]# yum check-update | ./yum2md
+1 pending update to apply.
 | Package           | Release          | Repo                          |
 | ----------------- | ---------------- | ----------------------------- |
 | libnghttp2.x86_64 | 1.43.0-6.el9_7.1 | rhel-9-for-x86_64-baseos-rpms |
@@ -167,6 +169,7 @@ system. The OS release is listed in the hostname.
 
 ```console
 [root@atc0005-wsl-rhel10-test yum2md-prototype]# yum check-update | ./yum2md
+3 pending updates to apply.
 | Package            | Release              | Repo                           |
 | ------------------ | -------------------- | ------------------------------ |
 | libnghttp2.x86_64  | 1.64.0-2.el10_1.1    | rhel-10-for-x86_64-baseos-rpms |
