@@ -25,7 +25,7 @@
 scratch/
 
 # Ignore one-off binary builds
-/check_memory
+/yum2md
 
 # env file
 .env
