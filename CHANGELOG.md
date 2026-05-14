@@ -26,6 +26,22 @@ The following types of changes will be recorded in this file:
 
 - placeholder
 
+## [v0.2.0] - 2026-05-13
+
+### Added
+
+- (GH-43) Support RHEL 7 `check-update` reduced width output
+- (GH-45) Emit pending package count
+
+### Changed
+
+- (GH-36) Build Image: Bump atc0005/go-ci from go-ci-oldstable-build-v0.23.18 to go-ci-oldstable-build-v0.23.20 in /dependabot/docker/builds
+
+### Fixed
+
+- (GH-32) Fix README examples
+- (GH-39) Remove/Prevent unintentional binary inclusion
+
 ## [v0.1.2] - 2026-04-16
 
 ### Fixed
@@ -50,7 +66,8 @@ Markdown-formatted table on stdout.
 
 See the project README for additional details.
 
-[Unreleased]: https://github.com/atc0005/yum2md/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/atc0005/yum2md/compare/v0.2.0...HEAD
+[v0.2.0]: https://github.com/atc0005/yum2md/releases/tag/v0.2.0
 [v0.1.2]: https://github.com/atc0005/yum2md/releases/tag/v0.1.2
 [v0.1.1]: https://github.com/atc0005/yum2md/releases/tag/v0.1.1
 [v0.1.0]: https://github.com/atc0005/yum2md/releases/tag/v0.1.0
