@@ -39,7 +39,7 @@ This repo is intended to provide various tools used to monitor memory usage.
 
 | Tool Name | Overall Status | Description                                                                                                                        |
 | --------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| `yum2md`  | Beta           | CLI tool to convert `yum check-update` / `dnf check-update` output (RHEL 8+) from stdin into a Markdown-formatted table on stdout. |
+| `yum2md`  | Beta           | CLI tool to convert `yum check-update` / `dnf check-update` output (RHEL 7+) from stdin into a Markdown-formatted table on stdout. |
 
 ## Changelog
 
